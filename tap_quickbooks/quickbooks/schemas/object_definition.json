@@ -356,6 +356,18 @@
     {"name": "Line", "type": "string"},
     {"name": "PurchaseEx", "type": "string"}
   ],
+  "PurchaseOrder": [
+    {"name": "Id", "type": "string"},
+    {"name": "VendorRef", "type": "string"},
+    {"name": "Line", "type": "string"},
+    {"name": "CurrencyRef", "type": "string"},
+    {"name": "TxnDate", "type": "datetime"},
+    {"name": "POStatus", "type": "string"},
+    {"name": "TransactionLocationType", "type": "string"},
+    {"name": "DueDate", "type": "datetime"},
+    {"name": "MetaData", "type": "string"},
+    {"name": "TotalAmt", "type": "number"}
+  ],
   "SalesReceipt": [
     {"name":"Id", "type": "string"},
     {"name":"MetaData", "type": "string"},
